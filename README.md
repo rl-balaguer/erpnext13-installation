@@ -3,16 +3,16 @@ This installation uses the latest stable version of frappe framework(13.31.0) an
 ## Virtual Machine
 *Note: Deploying the ERP System inside a virtual machine is the simplest and easiest procedure. Through the use of snapshots and clone, it is easier to backup and restore the ERP system image compared to containerized docker solution or a direct installation to the host operating system.*
 
-Install VirtualBox.
-Create a new virtual machine
-Type: Linux, Version: Ubuntu Server(64-bit) *Note: Tested on 22.04 LTS*
-Memory size: 4096 MB
-File size: 60 GB
-Hard disk file type: VDI
-Storage on physical hard disk: Dynamically allocated
-Processor count: 2, Enable PAE/NX
-Video Memory: 8MB
-Graphics Controller: VBoxVGA
+Install VirtualBox.<br/>
+Create a new virtual machine<br/>
+Type: Linux, Version: Ubuntu Server(64-bit) *Note: Tested on 22.04 LTS*<br/>
+Memory size: 4096 MB<br/>
+File size: 60 GB<br/>
+Hard disk file type: VDI<br/>
+Storage on physical hard disk: Dynamically allocated<br/>
+Processor count: 2, Enable PAE/NX<br/>
+Video Memory: 8MB<br/>
+Graphics Controller: VBoxVGA<br/>
 ## Guest Operating System
 
 **Your name**: Administrator
@@ -46,14 +46,14 @@ root#:mysql_secure_installation
 
 The above command will prompt for the following options:
 
-Enter current password for root (enter for none): **(Enter)**
-Switch to `unix_socket authentication`: **n**
-Change the `root` password?: **y**
-New password: **YOUR_PASSWORD**
-Remove anonymous user?: **y**
-Disallow root login remotely: **y**
-Remove test database and access to it?: **y**
-Reload privilege tables now? **y**
+Enter current password for root (enter for none): **(Enter)**<br/>
+Switch to `unix_socket authentication`: **n**<br/>
+Change the `root` password?: **y**<br/>
+New password: **YOUR_PASSWORD**<br/>
+Remove anonymous user?: **y**<br/>
+Disallow root login remotely: **y**<br/>
+Remove test database and access to it?: **y**<br/>
+Reload privilege tables now? **y**<br/>
 
 #### MySQL Development files
 ```bash
