@@ -15,10 +15,10 @@ Video Memory: 8MB<br/>
 Graphics Controller: VBoxVGA<br/>
 ## Guest Operating System
 
-**Your name**: Administrator
-**Computer name**: ubuntu
-**username**: administrator
-**password**: YOUR_PASSWORD
+**Your name**: Administrator<br/>
+**Computer name**: ubuntu<br/>
+**username**: administrator<br/>
+**password**: YOUR_PASSWORD<br/>
 
 Wait for the setup to finish. Reboot.
 
@@ -29,14 +29,14 @@ Launch Terminal then run the following commands:
 ```bash
 administrator$:sudo su
 
-root#:apt-get install libffi-dev python3-pip python3-dev python-testresources libssl-dev wkhtmltopdf gcc g++ make -y
+root#:apt-get install libffi-dev python3-pip python3-dev python3-testresources libssl-dev wkhtmltopdf gcc g++ make redis -y
 ```
 
 ### Database Installation and Configuration
 
 #### Install MariaDB Server and Client
 ```bash
-root#:apt-get install maridb-server mariadb-client -y
+root#:apt-get install mariadb-server mariadb-client -y
 ```
 
 The command above will install both server and client automatically.
@@ -76,11 +76,6 @@ The result should be similar to this:
 | User | plugin |
 | -----| -----|
 | root | mysql_native_password |
-
-```SQL
-MariaDB [mysql] > flush privileges;
-MariaDB [mysql] > exit;
-```
 
 Edit the file: 
 ```bash
