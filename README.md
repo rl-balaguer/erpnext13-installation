@@ -1,5 +1,5 @@
-# Frappe-ERPNext Installation
-This installation uses the latest stable version of frappe framework(13.31.0) and erpnext runtime(13.32.0).
+# Frappe-ERPNext Installation on Ubuntu Server 22.04 VM
+This installation uses the stable version of frappe framework(13.31.0) and erpnext(13.32.0).
 ## Virtual Machine
 *Note: Deploying the ERP System inside a virtual machine is the simplest and easiest procedure. Through the use of snapshots and clone, it is easier to backup and restore the ERP system image compared to containerized docker solution or a direct installation to the host operating system.*
 
