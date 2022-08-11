@@ -90,7 +90,7 @@ innodb-file-per-table=1
 innodb-large-prefix=1
 character-set-client-handshake=FALSE
 character-set-server=utf8mb4
-collation-server=utfmb4_unicode_ci
+collation-server=utf8mb4_unicode_ci
 ```
 
 Save the file, then restart MariaDB service:
